@@ -5,11 +5,13 @@
 	box-sizing: border-box;
 	font-family: 'Dancing Script', cursive;
 	cursor: none;
+    
 }
 
 body {
-	background-color: green;
-	color: white;
+background: url(images/junglebg.jpg);
+background-position: center;
+    color: white;
 	justify-content: center;
 }
 
@@ -68,13 +70,14 @@ body {
 }
 
 .button {
-	background-color: inherit;
+	background-color: wheat;
 	padding: 15px 45px;
 	border: #fff 2px solid;
 	border-radius: 4px;
-	color: rgb(21, 14, 235);
-	font-size: 0.8em;
-	font-weight: 900;
+	color: rgb(0, 0, 0);
+	font-size: 2em;
+	font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 	outline: none;
 }
 
