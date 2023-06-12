@@ -9,8 +9,10 @@
 }
 
 body {
-background: url(images/junglebg.jpg);
+background: url(images/newbg2.jpeg);
 background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
     color: white;
 	justify-content: center;
 }

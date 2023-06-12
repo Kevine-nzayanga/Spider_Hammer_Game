@@ -67,6 +67,6 @@ start_btn.addEventListener('click', () => {
 		clearInterval(game)
 		stop_btn.style.display = 'none'
 		start_btn.style.display = 'inline-block'
-		score.innerHTML = '0'
+		score.innerHTML = 0
 	})
 })
