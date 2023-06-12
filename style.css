@@ -5,14 +5,13 @@
 	box-sizing: border-box;
 	font-family: 'Dancing Script', cursive;
 	cursor: none;
+	
     
 }
 
 body {
-background: url(images/newbg2.jpeg);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+    background-image: url(images/junglebg-fotor-20230612133136.jpg);
+    background-position: center;
     color: white;
 	justify-content: center;
 }
@@ -82,7 +81,6 @@ background-repeat: no-repeat;
     font-family: Georgia, 'Times New Roman', Times, serif;
 	outline: none;
 }
-
 
 .stop {
 	display: none;
