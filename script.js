@@ -34,27 +34,27 @@ start_btn.addEventListener('click', () => {
 	const game = setInterval(() => {
 
 		// Here we are taking a random hole
-		// from where mouse comes out
+		// from where snake comes out
 		let ran = Math.floor(Math.random() * 5)
 		holee = holes[ran]
 
 		// This part is used for taking the
-		// mouse up to the desired hole
+		// snake up to the desired hole
 		let set_img = document.createElement('img')
 		set_img.setAttribute('src',
-'https://o.remove.bg/downloads/bcaeb94a-4e2e-4ae0-9918-e77dbff2d8c9/snake-removebg-preview.png')
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCSQ8z3ctjv6PM-SObk12Zzs1X7EusWjfLZg&usqp=CAU')
 		set_img.setAttribute('class', 'snake')
 		holee.appendChild(set_img)
 
 		// This part is used for taking
-		// the mouse back to the hole
+		// the snake back to the hole
 		setTimeout(() => {
 			holee.removeChild(set_img)
 		}, 700);
 	}, 800)
 
 	// It is used for adding our points
-	// to 0 when we hit to the mouse
+	// to 0 when we hit to the snake
 	window.addEventListener('click', (e) => {
 		if (e.target === holee)
 			score.innerText = ++points;
