@@ -54,7 +54,7 @@ background-position: center;
 	bottom: -30px;
 }
 
-.snake {
+.spider {
 	position: absolute;
 	z-index: 10;
 	height: 10vh;
@@ -95,7 +95,7 @@ background-position: center;
 	animation: marne_wale_effects 0.1s ease;
 }
 
-/* Giving animation to our snake */
+/* Giving animation to our spider */
 @keyframes move {
 	from {
 		bottom: -60px;
@@ -106,7 +106,7 @@ background-position: center;
 }
 
 /* Giving effects to hammer when
-we hit on the snake */
+we hit on the spider */
 @keyframes marne_wale_effects {
 	from {
 		transform: rotate(0deg);
